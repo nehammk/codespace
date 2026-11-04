@@ -1,9 +1,7 @@
 {
   "messages": [
     {
-      "time": 1791215685.6821675,
-      "id": "d6b01f8e-768a-4481-a0a4-7e7efc03aad6",
-      "type": "msg",
+      "sender": "43cd588183c54fd8b8be185701d5c5d6",
       "metadata": {
         "model": {
           "id": null,
@@ -12,64 +10,66 @@
         "settings": {},
         "to_persona": "jupyter-ai-personas::jupyter_ai_acp_client::OpenCodeAcpPersona"
       },
+      "type": "msg",
       "raw_time": false,
+      "id": "d6b01f8e-768a-4481-a0a4-7e7efc03aad6",
       "body": "@OpenCode",
-      "sender": "43cd588183c54fd8b8be185701d5c5d6"
+      "time": 1791215685.6821675
     },
     {
-      "id": "c41c1894-8866-4f2d-a984-8be0c74a2fcb",
-      "type": "msg",
+      "sender": "jupyter-ai-personas::jupyter_ai_acp_client::OpenCodeAcpPersona",
+      "time": 1791215689.2503524,
       "mentions": [],
       "raw_time": false,
-      "body": "What would you like me to do?",
-      "time": 1791215689.2503524,
-      "sender": "jupyter-ai-personas::jupyter_ai_acp_client::OpenCodeAcpPersona"
+      "id": "c41c1894-8866-4f2d-a984-8be0c74a2fcb",
+      "type": "msg",
+      "body": "What would you like me to do?"
     }
   ],
   "users": {
+    "jupyter-ai-personas::jupyter_ai_acp_client::CopilotAcpPersona": {
+      "avatar_url": "/api/ai/avatars/jupyter-ai-personas%3A%3Ajupyter_ai_acp_client%3A%3ACopilotAcpPersona",
+      "bot": true,
+      "initials": null,
+      "display_name": "Copilot",
+      "name": "Copilot",
+      "color": null,
+      "username": "jupyter-ai-personas::jupyter_ai_acp_client::CopilotAcpPersona"
+    },
     "jupyter-ai-personas::jupyter_ai_acp_client::OpenCodeAcpPersona": {
       "avatar_url": "/api/ai/avatars/jupyter-ai-personas%3A%3Ajupyter_ai_acp_client%3A%3AOpenCodeAcpPersona",
-      "username": "jupyter-ai-personas::jupyter_ai_acp_client::OpenCodeAcpPersona",
       "display_name": "OpenCode",
       "color": null,
+      "username": "jupyter-ai-personas::jupyter_ai_acp_client::OpenCodeAcpPersona",
       "bot": true,
       "name": "OpenCode",
       "initials": null
     },
     "43cd588183c54fd8b8be185701d5c5d6": {
-      "mention_name": "Anonymous-Eirene",
-      "color": "var(--jp-collaborator-color2)",
-      "display_name": "Anonymous Eirene",
-      "username": "43cd588183c54fd8b8be185701d5c5d6",
-      "bot": false,
       "name": "Anonymous Eirene",
       "initials": "AE",
-      "avatar_url": null
+      "display_name": "Anonymous Eirene",
+      "username": "43cd588183c54fd8b8be185701d5c5d6",
+      "mention_name": "Anonymous-Eirene",
+      "color": "var(--jp-collaborator-color2)",
+      "avatar_url": null,
+      "bot": false
     },
     "hidden::jupyter_ai_system": {
-      "color": null,
       "bot": true,
-      "avatar_url": null,
-      "username": "hidden::jupyter_ai_system",
       "name": "System",
       "initials": null,
-      "display_name": "System"
-    },
-    "jupyter-ai-personas::jupyter_ai_acp_client::CopilotAcpPersona": {
-      "avatar_url": "/api/ai/avatars/jupyter-ai-personas%3A%3Ajupyter_ai_acp_client%3A%3ACopilotAcpPersona",
-      "name": "Copilot",
-      "initials": null,
-      "bot": true,
-      "username": "jupyter-ai-personas::jupyter_ai_acp_client::CopilotAcpPersona",
-      "display_name": "Copilot",
+      "avatar_url": null,
+      "username": "hidden::jupyter_ai_system",
+      "display_name": "System",
       "color": null
     }
   },
   "attachments": {},
   "metadata": {
+    "id": "a6022e6b-852d-4af8-85b1-24a8585eabb8",
     "acp_session_ids": {
       "jupyter-ai-personas::jupyter_ai_acp_client::OpenCodeAcpPersona": "ses_ef339e8cbffe8cLjxwPJUJwOLy"
-    },
-    "id": "a6022e6b-852d-4af8-85b1-24a8585eabb8"
+    }
   }
 }
